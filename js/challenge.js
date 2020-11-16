@@ -55,7 +55,7 @@ plus.addEventListener("click", increment)
 heart.addEventListener("click", function(){
 
     const like = document.createElement("li")
-    like.setAttribute("id", counter.textContent) 
+    like.setAttribute("id", counter.textContent)
     const match = likes.children.namedItem(`${counter.textContent}`)
 
     if (match) {
